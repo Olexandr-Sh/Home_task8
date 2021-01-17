@@ -1,0 +1,11 @@
+@mixin media-breakpoint-up($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+.title {
+  font-size: 12px;
+  @include media-breakpoint-up(768px) {
+    font-size: 32px;
+  }
+}

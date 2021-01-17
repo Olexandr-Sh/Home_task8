@@ -1,3 +1,13 @@
+.title {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -133,6 +143,28 @@ table {
   border-spacing: 0;
 }
 
+.container {
+  max-width: 540px;
+}
+
+@media screen and (min-width: sn) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: md) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: lg) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
 .main-btn {
   padding: 16px 40px;
   background-color: #ec1f46;
@@ -158,8 +190,9 @@ button {
   border: none;
 }
 
-.body {
+body {
   margin: 0;
+  font-family: "Mulish", sans-serif;
 }
 
 .nav {

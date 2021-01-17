@@ -1,2 +1,16 @@
+$container-widths: (
+  xs: 540px,
+  sm: 720px,
+  md: 960px,
+  lg: 1140px,
+);
+$breakpoints: (
+  xs: 540px,
+  sm: 768px,
+  md: 992px,
+  lg: 1280px,
+);
 $primary-color: #ec1f46;
 $secondary-color: #0a223d;
+$primary-font: "Mulish", sans-serif;
+$border-width: 5;
